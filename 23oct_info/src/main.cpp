@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <map>
 
 using namespace std;
 
@@ -14,12 +15,14 @@ void feladat1();
 void feladat2();
 void feladat3();
 void feladat4();
+void feladat5();
 
 int main() {
     feladat1();
     feladat2();
     feladat3();
     feladat4();
+    feladat5();
     
     return 0;
 }
@@ -94,4 +97,16 @@ void feladat4() {
     } while (jatekosok < 2 || jatekosok > 5);
 
     cout << endl;
+}
+
+void feladat5() {
+    cout << "5. feladat" << endl;
+    map<char, int> stat;
+    for (const auto &mezo : osvenyek[osveny_input]) {
+        stat[mezo]++;
+    }
+
+    for (const auto &adat : stat) {
+        cout << adat.first << ": " << adat.second << " darab" << endl;
+    }
 }

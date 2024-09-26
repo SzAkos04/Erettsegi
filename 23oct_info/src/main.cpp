@@ -16,6 +16,7 @@ void feladat2();
 void feladat3();
 void feladat4();
 void feladat5();
+void feladat6();
 
 int main() {
     feladat1();
@@ -23,6 +24,7 @@ int main() {
     feladat3();
     feladat4();
     feladat5();
+    feladat6();
     
     return 0;
 }
@@ -109,4 +111,21 @@ void feladat5() {
     for (const auto &adat : stat) {
         cout << adat.first << ": " << adat.second << " darab" << endl;
     }
+    cout << endl;
+}
+
+void feladat6() {
+    ofstream outfile("kulonleges.txt");
+    if (!outfile.is_open()) {
+        cerr << "Nem sikerult megnyitni a fajlt!" << endl;
+        return;
+    }
+
+    for (int i = 0; i < (int)osvenyek[osveny_input].length(); ++i) {
+        if (osvenyek[osveny_input][i] != 'M') {
+            outfile << i + 1 << "\t" << osvenyek[osveny_input][i] << endl;
+        }
+    }
+
+    outfile.close();
 }

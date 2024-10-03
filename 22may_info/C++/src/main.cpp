@@ -92,6 +92,9 @@ int ado(char adosav, int alapterulet) {
     case 'C':
         negyzetmeterenkent = c;
         break;
+    default:
+        negyzetmeterenkent = 0;
+        break;
     }
     int ado = negyzetmeterenkent * alapterulet;
 

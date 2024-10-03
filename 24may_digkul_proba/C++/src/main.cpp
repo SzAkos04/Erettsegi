@@ -292,9 +292,9 @@ void feladat8() {
          [](const Adat &a, const Adat &b) { return a.sorszam < b.sorszam; });
 
     int ido = 480; // 8:00 percekben
-    int ebed_kezd, ebed_veg;
-    int vita_kezd, vita_veg;
-    int eloadas_kezd, eloadas_veg;
+    int ebed_kezd = -1, ebed_veg = -1;
+    int vita_kezd = -1, vita_veg = -1;
+    int eloadas_kezd = -1, eloadas_veg = -1;
     bool ebed = false;
     for (const auto &adat : adatok) {
         if (adat.nap == nap) {

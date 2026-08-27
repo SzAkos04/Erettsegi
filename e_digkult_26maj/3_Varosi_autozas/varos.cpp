@@ -156,7 +156,13 @@ void feladat7() {
         return;
     }
 
-    // TODO:
+    int cur_sebesseg = 0;
+
+    for (const auto &adat : adatok) {
+        outfile << adat.kezdet << "\t" << cur_sebesseg << endl;
+        outfile << adat.veg << "\t" << adat.sebesseg << endl;
+        cur_sebesseg = adat.sebesseg;
+    }
 
     outfile.close();
 }

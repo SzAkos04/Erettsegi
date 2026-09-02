@@ -11,7 +11,7 @@ Jelmagyarázat:
 
 | Feladat | Állapot |
 |---|---|
-| [e_digkult_26maj_utvonaltervezes](excel/e_digkult_26maj_utvonaltervezes) | 🔴 |
+| [e_digkult_26maj_utvonaltervezes](excel/e_digkult_26maj_utvonaltervezes) | 🟢 |
 | [e_digkult_25okt_programozasi-nyelvek](excel/e_digkult_25okt_programozasi-nyelvek) | 🔴 |
 | [e_digkult_25maj_siparadicsomok](excel/e_digkult_25maj_siparadicsomok) | 🔴 |
 | [e_digkult_24okt_bolygopalyak](excel/e_digkult_24okt_bolygopalyak) | 🔴 |

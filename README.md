@@ -34,7 +34,7 @@ Jelmagyarázat:
 | [e_digkult_26maj_varosi-autozas](c++/e_digkult_26maj_varosi-autozas) | 🟢 |
 | [e_digkult_25okt_sebesseg](c++/e_digkult_25okt_sebesseg) | 🟢 |
 | [e_digkult_25maj_konyvkiadas](c++/e_digkult_25maj_konyvkiadas) | 🟢 |
-| [e_digkult_24okt_autok-mozgasa](c++/e_digkult_24okt_autok-mozgasa) | 🔴 |
+| [e_digkult_24okt_autok-mozgasa](c++/e_digkult_24okt_autok-mozgasa) | 🟢 |
 | [e_digkult_24maj_belepteto-rendszer](c++/e_digkult_24maj_belepteto-rendszer) | 🔴 |
 
 ---

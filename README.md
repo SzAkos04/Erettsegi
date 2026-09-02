@@ -21,7 +21,7 @@ Jelmagyarázat:
 
 | Feladat | Állapot |
 |---|---|
-| [e_digkult_26maj_taxitarsasag](sql/e_digkult_26maj_taxitarsasag) | 🔴 |
+| [e_digkult_26maj_taxitarsasag](sql/e_digkult_26maj_taxitarsasag) | 🟢 |
 | [e_digkult_25okt_forum](sql/e_digkult_25okt_forum) | 🔴 |
 | [e_digkult_25maj_nyiltnap](sql/e_digkult_25maj_nyiltnap) | 🔴 |
 | [e_digkult_24okt_asztalitenisz](sql/e_digkult_24okt_asztalitenisz) | 🔴 |
@@ -36,12 +36,3 @@ Jelmagyarázat:
 | [e_digkult_25maj_konyvkiadas](c++/e_digkult_25maj_konyvkiadas) | 🟢 |
 | [e_digkult_24okt_autok-mozgasa](c++/e_digkult_24okt_autok-mozgasa) | 🟢 |
 | [e_digkult_24maj_belepteto-rendszer](c++/e_digkult_24maj_belepteto-rendszer) | 🟢 |
-
----
-
-## 📈 Összesítés
-
-- **Excel:** 0 / 5 megoldva
-- **SQL:** 0 / 5 megoldva
-- **C++:** 0 / 5 megoldva
-- **Összesen:** 0 / 15 megoldva

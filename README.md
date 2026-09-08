@@ -24,7 +24,7 @@ Jelmagyarázat:
 |---|---|
 | [e_digkult_26maj_taxitarsasag](sql/e_digkult_26maj_taxitarsasag) | 🟢 |
 | [e_digkult_25okt_forum](sql/e_digkult_25okt_forum) | 🟢 |
-| [e_digkult_25maj_nyiltnap](sql/e_digkult_25maj_nyiltnap) | 🔴 |
+| [e_digkult_25maj_nyiltnap](sql/e_digkult_25maj_nyiltnap) | 🟢 |
 | [e_digkult_24okt_asztalitenisz](sql/e_digkult_24okt_asztalitenisz) | 🔴 |
 | [e_digkult_24maj_ingatlankozvetito-iroda](sql/e_digkult_24maj_ingatlankozvetito-iroda) | 🔴 |
 | [e_digkult_23okt_kulturtortenet](sql/e_digkult_23okt_kulturtortenet) | 🔴 |
